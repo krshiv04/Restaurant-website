@@ -1,0 +1,74 @@
+/* navigation bar */
+#navbar{
+    flex-direction: column;
+}
+
+.navigation ul li a{
+    font-size: 23px;
+    padding: 0px 6px;
+}
+/* label section */
+.label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    
+}
+.label h1{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.label p{
+    font-size: 15px;
+    padding: 2px 12px ;
+}
+.label::before{
+    height: 451px;
+}
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* service section */
+
+#os{
+    margin-top: 80px;
+}
+
+.services{
+    flex-direction: column;
+}
+
+/* partner section */
+
+.partners{
+    display: flex;
+   flex-wrap: wrap;
+    
+}
+
+.partners img{
+    height: 70px;
+}
+
+/* contact section */
+
+.cu::before{
+    height: 465px;
+}
+
+.form input{
+    width: 80%;
+}
+.btn2{
+    margin-top: 0px;
+}
+
+/* Footer section */
+
+.quarternary{
+    margin-top: 2px;
+}
